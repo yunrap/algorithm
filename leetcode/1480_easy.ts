@@ -1,15 +1,14 @@
 // 배열자리수만큼 돌아가면서 누적합 누적
 function runningSum(nums: number[]): number[] {
-  const sum = new Array(nums.length); // 배열고정하면 더최적화
   let accSum = 0;
-
-  nums.forEach((num, idx) => {
-    accSum = num + accSum;
-    sum[idx] = accSum;
+  nums.forEach((num, i) => {
+    accSum += num;
+    nums[i] = accSum;
   });
-
-  return sum;
+  return nums;
 }
+
+console.log(runningSum([1, 2, 3, 4]));
 /**
  * url: https://leetcode.com/problems/running-sum-of-1d-array/
  *
