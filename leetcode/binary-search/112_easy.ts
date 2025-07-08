@@ -1,6 +1,6 @@
 import { TreeNode } from './utill';
 
-function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
+export function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
   if (!root) return false;
 
   // 리프에 도달했을 때, 남은 합이 자기 자신이면 OK

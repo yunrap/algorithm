@@ -1,4 +1,4 @@
-import { groupAnagrams } from '../../leetcode/etc/49_anergram';
+import { groupAnagrams } from '../../etc/49_anergram';
 
 describe('groupAnagrams', () => {
   test('애너그램 그룹이 올바르게 묶이는지 확인', () => {

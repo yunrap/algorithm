@@ -1,4 +1,4 @@
-function lengthOfLongestSubstring(s: string): number {
+export default function lengthOfLongestSubstring(s: string): number {
   let max = 0;
   const seen = new Map<string, number>();
   let left = 0;
@@ -15,4 +15,4 @@ function lengthOfLongestSubstring(s: string): number {
   return max;
 }
 
-console.log(lengthOfLongestSubstring("acbabcbb"));
+console.log(lengthOfLongestSubstring('acbabcbb'));

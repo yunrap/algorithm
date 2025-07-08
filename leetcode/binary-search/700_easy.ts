@@ -1,6 +1,6 @@
-import { BST, TreeNode } from './utill';
+import { TreeNode } from './utill';
 
-function searchBST(root: TreeNode | null, val: number): TreeNode | null {
+export function searchBST(root: TreeNode | null, val: number): TreeNode | null {
   while (root !== null) {
     if (root.val === val) return root;
     root = val < root.val ? root.left : root.right;

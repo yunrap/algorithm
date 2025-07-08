@@ -1,4 +1,4 @@
-function lengthOfLongestSubstring(s: string): number {
+export default function lengthOfLongestSubstring(s: string): number {
   const map = new Map();
   let startIdx = 0;
   let longStr = 0;

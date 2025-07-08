@@ -1,5 +1,5 @@
 import { describe, expect, test, beforeEach } from '@jest/globals';
-import { MyCalendarTwo } from '../../leetcode/etc/731_mycalendar';
+import { MyCalendarTwo } from '../../etc/731_mycalendar';
 
 describe('MyCalendarTwo', () => {
   let calendar: MyCalendarTwo;
