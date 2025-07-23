@@ -1,4 +1,4 @@
-import { isSameTree } from '../../binary-search/100_easy';
+import { isSameTree } from '../binary-search/100_easy';
 
 class TreeNode {
   val: number;
