@@ -1,4 +1,3 @@
-import { describe, expect, test, beforeEach } from '@jest/globals';
 import { MyCalendarTwo } from '../etc/731_mycalendar';
 
 describe('MyCalendarTwo', () => {
