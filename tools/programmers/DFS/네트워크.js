@@ -1,7 +1,7 @@
 // 네트워크 개수를 return해라 (연결되면 1로 , 아니면 ++)
 // 모든배열의 1자리수는 1이랑연결여부, 2자리수는 2랑연결여부
 
-function solution(n, computers) {
+function network(n, computers) {
   var answer = 0;
   const visited = new Array(n).fill(false);
 
@@ -26,7 +26,7 @@ function solution(n, computers) {
 }
 
 console.log(
-  solution(3, [
+  network(3, [
     [1, 1, 0],
     [1, 1, 0],
     [0, 0, 1],
